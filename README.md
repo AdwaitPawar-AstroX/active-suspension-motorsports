@@ -7,7 +7,7 @@
 
 ## 📌 Overview
 
-This project presents the design and development of an **F1-inspired semi-active suspension system** integrating **LIDAR-based predictive terrain response** and **dual-servo independent steering** for high-speed vehicles.
+This project presents the design and development of an **F1-inspired semi-active suspension system** integrating **LIDAR-based predictive terrain response** and **dual-servo independent steering** for motorsports vehicles.
 
 Unlike conventional reactive suspension systems, this system uses a **parallel predictive-reactive control loop** — combining real-time sensor feedback with forward-looking terrain prediction — to achieve smoother ride, consistent downforce, and faster recovery from surface changes.
 
@@ -62,7 +62,8 @@ The system architecture mirrors modern Formula 1 engineering principles, scaled 
 |---|---|---|
 | **Type** | Independent Double Wishbone, Pushrod & Rocker | F1-inspired design |
 | **Operation Mode** | Semi-Active (Electronically Controlled Damping) | MCU-regulated |
-| **Material** | CF-Nylon arms, CNC Aluminium rockers, Steel coilovers | Lightweight and strong |
+| **Material (Prototype)** | PETG-CF (Carbon Fibre reinforced PETG) | Rapid iteration, stiff, lightweight |
+| **Material (Final — Planned)** | CF-Nylon arms, CNC Aluminium rockers, Steel coilovers | Motorsports-grade strength and durability |
 | **Spring Rate (Front)** | 2.2 – 2.5 N/mm | Precision turn-in |
 | **Spring Rate (Rear)** | 1.8 – 2.2 N/mm | Traction stability |
 | **Damper Stroke** | 25 – 30 mm | Tuneable via rocker ratio |
@@ -70,7 +71,7 @@ The system architecture mirrors modern Formula 1 engineering principles, scaled 
 | **Actuator Power** | 4 – 6 W Micro Linear Actuator | Electronic stiffness control |
 | **Response Time** | < 10 ms | Instant damping modulation |
 | **Ride Height Range** | 6 – 14 mm (active adjustment) | Electronically controlled |
-| **Total Chassis Weight** | 7.0 – 7.5 kg | Including all electronics | Currently 3kg 
+| **Total Chassis Weight** | 7.0 – 7.5 kg | Including all electronics |
 
 ---
 
@@ -172,13 +173,14 @@ Two independent servos actuate left and right steering arms separately. The MCU 
 
 | Category | Tools |
 |---|---|
-| **CAD Design** | Solidworks, Fusion 360 |
+| **CAD Design** | [Your CAD software — e.g. SolidWorks / Fusion 360] |
 | **Simulation** | MATLAB / Simulink |
 | **Control Algorithms** | PID, LQR, Kalman Filter |
-| **Microcontroller** | teensy 4.0 |
+| **Microcontroller** | [Your MCU — e.g. STM32 / Arduino / Raspberry Pi] |
 | **Sensors** | IMU, Solid-state LIDAR, Ride-height sensors, Displacement sensors |
-| **Actuators** |  Dual Metal-Gear Servos (40 kg·cm) |
-| **Materials** | CF-Nylon, CNC Aluminium, Steel coilovers |
+| **Actuators** | Micro Linear Actuators (4–6W), Dual Metal-Gear Servos (30–35 kg·cm) |
+| **Prototype Materials** | PETG-CF (Carbon Fibre reinforced PETG) — all structural components |
+| **Final Materials (Planned)** | CF-Nylon, CNC Aluminium, Steel coilovers |
 
 ---
 
@@ -235,9 +237,9 @@ active-suspension-f1/
 
 ## 👤 Author
 
-**Adwait Satish Pawar**
+**[Pawar Adwait Satish]**
 B.Eng. Mechatronics & Robotics — Kyoto University of Advanced Science (KUAS)
-[LinkedIn](www.linkedin.com/in/adwaitpawar-astrox) | [Email](adwaitpawar02@gmail.com)
+[LinkedIn](www.linkedin.com/in/adwaitpawar-astrox) | [Email](astroxindia@gmail.com)
 
 ---
 
