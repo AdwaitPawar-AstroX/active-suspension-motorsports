@@ -173,10 +173,10 @@ Two independent servos actuate left and right steering arms separately. The MCU 
 
 | Category | Tools |
 |---|---|
-| **CAD Design** | [Your CAD software — e.g. SolidWorks / Fusion 360] |
-| **Simulation** | MATLAB / Simulink |
+| **CAD Design** | Fusion 360 |
+| **Simulation** | MATLAB |
 | **Control Algorithms** | PID, LQR, Kalman Filter |
-| **Microcontroller** | [Your MCU — e.g. STM32 / Arduino / Raspberry Pi] |
+| **Microcontroller** | Teensy 4.0 |
 | **Sensors** | IMU, Solid-state LIDAR, Ride-height sensors, Displacement sensors |
 | **Actuators** | Micro Linear Actuators (4–6W), Dual Metal-Gear Servos (30–35 kg·cm) |
 | **Prototype Materials** | PETG-CF (Carbon Fibre reinforced PETG) — all structural components |
